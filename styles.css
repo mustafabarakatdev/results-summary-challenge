@@ -171,6 +171,10 @@ button {
     cursor: pointer;
 }
 
+button:hover{
+    background-color: hsl(241, 81%, 54%);
+}
+
 .summary h2 {
     margin : 20px 0px 0px 20px
 }
