@@ -1,0 +1,176 @@
+@font-face {
+    font-family: 'hanken';
+    src: url('assets/fonts/HankenGrotesk-VariableFont_wght.ttf');
+}
+
+body {
+    background-color: #ECF2FF;
+    font-family: 'hanken';
+}
+
+.container {
+    display: flex;
+    height: 400px;
+    width: 600px;
+    background-color: white;
+    margin: 150px auto;
+    color: white;
+    border-radius: 20px;
+    margin-bottom: 0px;
+}
+
+.result {
+    height: 400px;
+    width: 300px;
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border-radius: 20px;
+}
+
+.result-txt {
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.circle {
+    height: 150px;
+    width: 150px;
+    background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+
+h1 {
+    margin-bottom: 5px;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+h2 {
+    margin: 0px;
+    margin-top: 10px;
+}
+
+.txt {
+    margin-top: 0px;
+    width: 200px;
+    text-align: center;
+}
+
+div p {
+    color: hsl(241, 100%, 89%);
+}
+
+.summary h2 {
+    color: black;
+}
+
+h4, h3{
+    margin: 0px;
+    padding: 0px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+.summary {
+    color: black;
+}
+
+.reaction {
+    font-family: 'hanken';
+    font-weight: 500;
+    color: hsla(0, 100%, 67%, 70%);
+    margin:  15px auto;
+    display: flex;
+    height: 50px;
+    width: 270px;
+    background-color: hsla(0, 100%, 67%, 10%);
+    margin-left: 20px;
+    border-radius: 10px;
+    align-items: center;
+    font-size: 15px;
+}
+
+span {
+    margin-left: auto;
+    margin-bottom: 5px;
+    margin-right: 10px;
+}
+.reaction span {
+    color: black;
+}
+.test {
+    color: red;
+  }
+  
+.svg {
+    height: 20px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+div span .test {
+    color: grey;
+}
+div span {
+    color: black;
+}
+.memory {
+    background-color: hsla(39, 100%, 56%, 10%);
+    margin:  15px auto;
+    display: flex;
+    height: 50px;
+    width: 270px;
+    color: hsla(39, 100%, 56%, 50%);
+    margin-left: 20px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.verbal {
+    background-color: hsla(166, 100%, 37%, 10%);
+    margin:  15px auto;
+    display: flex;
+    height: 50px;
+    width: 270px;
+    color: hsla(166, 100%, 37%, 50%);
+    margin-left: 20px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.visual {
+    background-color: hsla(234, 85%, 45%, 10%);
+    margin:  15px auto;
+    display: flex;
+    height: 50px;
+    width: 270px;
+    color: hsla(234, 85%, 45%, 50%);
+    margin-left: 20px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+button {
+    display: block;
+    color: white;
+    width: 250px;
+    height: 50px;
+    font-size: 18px;
+    background-color: hsl(224, 30%, 27%);
+    border-radius: 30px;
+    border: none;
+    padding: 5px 20px;
+    margin: 10px auto;
+    cursor: pointer;
+}
+
+.summary h2 {
+    margin : 20px 0px 0px 20px
+}
